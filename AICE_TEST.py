@@ -18,7 +18,7 @@ def main():
 
             # Display the explanation
             st.subheader("Code Explanation:")
-            st.code(response.result, language='python')  # Display the explanation as code
+            st.write(response.result)  # Display the explanation
 
 if __name__ == "__main__":
     main()
